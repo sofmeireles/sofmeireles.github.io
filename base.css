@@ -54,7 +54,7 @@ p {
     position: fixed;
     /* Stay in place */
     background-color: #111;
-    background-position: center;
+    background-position-x: center;
     background-image: linear-gradient(rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.9)), url("jd.gif");
     display: flex;
     flex-flow: row;
