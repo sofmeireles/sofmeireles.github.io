@@ -1,0 +1,52 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: baseline;
+    background-color: rgb(87, 91, 92);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(87, 91, 92);
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 3%;
+    gap: 10%;
+  }
+
+  .logo-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: baseline;
+    padding: 2%;
+  }
+
+  .logo-cont p {
+    padding: 0.75em;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(181, 180, 180);
+    ;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 3em;
+    height: 3em;
+    object-fit: scale-down;
+  }
+
+  @media screen and (max-width: 780px) {
+    .grid {grid-template-columns: repeat(auto-fit, 8em); gap:0;}
+  }
